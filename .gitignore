@@ -1,2 +1,4 @@
 #Игнорировать файлы кеша smarty
 *.tpl.cache
+/nbproject
+.bat
