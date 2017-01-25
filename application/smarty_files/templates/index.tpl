@@ -16,7 +16,7 @@
         <div class="col-md-12">
             <form class="form-inline" >
               <div class="form-group">
-                <input type="text" class="form-control" id="inputWord" placeholder="Ключевое слово">
+                <input type="text" class="form-control" id="inputWord" data-toggle="tooltip" data-trigger="manual" title="Пустой запрос" placeholder="Ключевое слово">
               </div>
               <button type="button" class="btn btn-primary" id="send_request">Скопировать</button>
             </form>

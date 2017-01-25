@@ -6,7 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Text' => array($vendorDir . '/mrcore/text_wiki'),
     'Requests' => array($baseDir . '/library', $vendorDir . '/rmccue/requests/library'),
-    'PEAR' => array($vendorDir . '/pear/pear_exception'),
 );
