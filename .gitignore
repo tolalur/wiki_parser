@@ -1,5 +1,4 @@
 #Игнорировать файлы кеша smarty
-*.tpl.cache
-*.tpl.cache.php
-/nbproject
+*.tpl.php
 *.bat
+/nbproject
