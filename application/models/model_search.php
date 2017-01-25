@@ -1,6 +1,4 @@
 <?php
-     
-//SELECT search.import_id AS 'search.import_id', import.import_id AS 'import.import_id', import.title, import.text, COUNT(import.import_id) FROM `search` LEFT JOIN import USING(import_id) WHERE `word` = 'Элемент' GROUP BY search.import_id
 
 class Model_Search extends Model
 {

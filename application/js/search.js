@@ -18,7 +18,9 @@ function load_data(){
         }
 }
 
+//Счетчик для управления отображением статьи
 var count = 0;
+
 //Поиск данных по нажатию на кнопку
 $(document).ready(function(){
     $( "#send_request" ).click(function() {
@@ -32,7 +34,7 @@ $(document).ready(function(){
         return false;
     });
 });
-
+//Загрузка текста, найденой статьи по нажатию на ссылку
 $(document).ready(function(){
     $("#main_wrap").on( "click", "#result a", function(){
         var a = $(this).text();
